@@ -208,11 +208,12 @@ font-style: normal;
      flex-direction: row;
      justify-content: flex-start;
      gap: 24px;
-     flex-basis: calc((100% - 3 * 24px) / 4);
+     padding: 0;
 }
 
 .features-list-item{
    height: 104px;
+   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* team section */
@@ -250,15 +251,15 @@ font-style: normal;
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-left: 0;
 }
 
 .team-list-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0px 0px 4px 4px;
-    padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item-title{
