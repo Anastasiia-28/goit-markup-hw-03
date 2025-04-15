@@ -74,6 +74,8 @@ background-color: #FFFFFF;
         letter-spacing: 0.02em;
         line-height: 1.5;
         color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .nav-list-link:hover,
@@ -148,7 +150,7 @@ font-style: normal;
         width: 169px;
         height: 56px;
         display: block;
-        max-width: 169px;
+        min-width: 169px;
         border: none;
 }
 
@@ -189,7 +191,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2E2F42;
-        margin-top: 8px;
+        margin-bottom: 8px;
 }
 
 .features-description{
@@ -206,11 +208,11 @@ font-style: normal;
      flex-direction: row;
      justify-content: flex-start;
      gap: 24px;
+     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-list-item{
-flex-basis: calc((100% - 3 * 24px) / 4);
-height: 104px;
+   height: 104px;
 }
 
 /* team section */
@@ -383,6 +385,7 @@ gap: 16px;
         color: #4d5ae5;
         display: inline-block;
         margin-bottom: 16px;
+
 }
 
 .footer-logo-studio{
